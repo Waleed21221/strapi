@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "options",
+  "info": {
+    "singularName": "option",
+    "pluralName": "options",
+    "displayName": "option"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "question": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::question.question"
+    }
+  }
+}

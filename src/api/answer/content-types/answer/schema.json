@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "answers",
+  "info": {
+    "singularName": "answer",
+    "pluralName": "answers",
+    "displayName": "answer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::customer.customer"
+    },
+    "question": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::question.question"
+    },
+    "option": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::option.option"
+    }
+  }
+}
