@@ -19,6 +19,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::answer.answer"
+    },
+    "age": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
     }
   }
 }

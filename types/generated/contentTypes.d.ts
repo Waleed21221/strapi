@@ -850,6 +850,8 @@ export interface ApiCustomerCustomer extends Schema.CollectionType {
       'oneToMany',
       'api::answer.answer'
     >;
+    age: Attribute.String;
+    city: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
